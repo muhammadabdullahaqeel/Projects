@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cornsilk;
+}
+
+
+
+.timerContainer{
+    width: 50%;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: 250px;
+    border: 2px solid yellow;
+    background-color: black;
+    border-radius: 12px;
+    color: aqua;
+}
+
+.buttons{
+    margin: 5px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btn{
+    font-size: 20px;
+    border: none;
+    padding: 12px;
+    margin-inline: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="timerContainer">
+        <div>
+            <h1 id="minHeading">00</h1>
+            <h1>MIN</h1>
+        </div>
+        <div>
+            <h1 id="secHeading">00</h1>
+            <h1>SEC</h1>
+        </div>
+        <div>
+            <h1 id="mSecHeading">00</h1>
+            <h1>M.SEC</h1>
+        </div>
+    </div>
+    <div class="buttons">
+        <button onclick="stopTimer()" class="btn" style="background-color: red;">STOP</button>
+        <button onclick="startTimer(); disableStart(this) " class="btn" style="background-color: blue">START</button>
+        <button onclick="resetTimer()" class="btn" style="background-color: green;">RESET</button>
+    </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

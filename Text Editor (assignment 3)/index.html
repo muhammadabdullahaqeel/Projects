@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="text">Text Editor</h1>
+    <button onclick="fontSizeCounter('minus')">-</button>
+    <button disabled id="textNumber">16</button>
+    <button onclick="fontSizeCounter('plus')">+</button>
+    <button onclick="boldPara()">Bold</button>
+    <button onclick="italicPara()">Italic</button>
+    <input type="color" id="color" oninput="colorChange(this)"><br>
+
+    <textarea id="para" cols="30" rows="10"></textarea>
+</body>
+<script src="app.js"></script>
+</html>

@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: black;
+    border: 1px solid grey;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.container input{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    text-align: right;
+    color: azure;
+}
+
+.container .calculator{
+    width: 100%;
+    border-top: 1px solid gray;
+}
+
+.calculator table{
+    width: 100%;
+}
+
+table td{
+    background-color:#52C9DC;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.color {
+    background-color:#1E2435;
+    color:aliceblue;
+}
+
+.colorOne{
+    background-color: #FCD662;
+    color:teal;
+}
+

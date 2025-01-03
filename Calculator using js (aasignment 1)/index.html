@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR USING JAVASCRIPT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <input type="text" placeholder="0" id="input" disabled>
+        </div>
+        <div class="calculator">
+            <table>
+                <tr>
+                    <td onclick="removeValue()" class="color">C</td>
+                    <td onclick="allClear()" class="color">AC</td>
+                    <td onclick="inputValue('%')" class="color">%</td>
+                    <td onclick="inputValue('/')" class="color">/</td>
+                </tr>
+                <tr>
+                    <td onclick="inputValue(7)">7</td>
+                    <td onclick="inputValue(8)">8</td>
+                    <td onclick="inputValue(9)">9</td>
+                    <td onclick="inputValue('+')" class="color">+</td>
+                </tr>
+                <tr>
+                    <td onclick="inputValue(4)">4</td>
+                    <td onclick="inputValue(5)">5</td>
+                    <td onclick="inputValue(6)">6</td>
+                    <td onclick="inputValue('-')" class="color">-</td>
+                </tr>
+                <tr>
+                    <td onclick="inputValue(1)">1</td>
+                    <td onclick="inputValue(2)">2</td>
+                    <td onclick="inputValue(3)">3</td>
+                    <td onclick="inputValue('*')" class="color">*</td>
+                </tr>
+                <tr>
+                    <td onclick="inputValue(0)">0</td>
+                    <td onclick="inputValue('00')">00</td>
+                    <td onclick="inputValue('.')" class="colorOne">.</td>
+                    <td onclick="result()" class="colorOne">=</td>
+                </tr>
+            </table>
+            
+        </div>
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
